@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.linksContainer{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 5rem auto;
+}
+
+.linksCell{
+  padding: 0.5rem;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+.linksCell:hover{
+  background-color: aqua;
+}
+
+.HomeContainer{
+  width: 100%;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.userListContainer{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.userItem{
+  padding: 1rem;
+  cursor: pointer;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: beige;
+}
+
+.userItem:hover{
+  background-color: bisque;
+}
+
+.UserDetailContainer{
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.postsContainer{
+  display: grid;
+  grid-template-columns: auto;
+  width: 80%;
+  margin: 2rem auto;
+  
+}
+.postItem{
+  border: 1px solid gray;
+  text-align: start;
+  padding: 1rem;
+}
+
+.postItem:hover{
+  background-color:beige;
+  cursor: pointer
+}

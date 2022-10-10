@@ -1,0 +1,3 @@
+export const ORDER_CAKE = 'ORDER_CAKE';
+export const ORDER_ICECREAM = 'ORDER_ICECREAM';
+export const ORDER_SWEETS = 'ORDER_SWEETS';
